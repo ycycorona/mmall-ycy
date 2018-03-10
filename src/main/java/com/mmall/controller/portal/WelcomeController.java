@@ -16,7 +16,7 @@ import javax.servlet.http.HttpSession;
 @Controller
 @RequestMapping("/welcome/")
 public class WelcomeController {
-    @RequestMapping(value = "index")
+    @RequestMapping(value = "index.do")
     public String welcome(){
         return "/index";
     }
